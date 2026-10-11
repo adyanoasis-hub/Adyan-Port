@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Adyan's Portfolio: student writing and ideas on technology, law, society and current affairs.">
+  <meta name="theme-color" content="#f7f3ea">
+  <title>Adyan's Portfolio — writing, ideas &amp; questions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="supabase-config.js"></script><script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Adyan's Portfolio home"><span class="wordmark-icon">A<span>✳</span></span><span>Adyan's <i>Portfolio</i></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a class="active" href="#articles">Articles</a><a href="#about">About Me</a><a href="#cv">CV</a></nav>
+  </header>
+  <main id="main">
+    <section class="intro-section wrap" aria-labelledby="page-title">
+      <div class="intro-text"><p class="eyebrow"><span class="eyebrow-dot"></span> A student, writer &amp; curious observer</p>
+        <h1 id="page-title">Adyan's<br><em>Portfolio</em><span class="title-period">.</span></h1>
+        <p class="intro-lede">A personal publication for ideas in progress, questions worth asking and writing about the world we're making.</p>
+        <p class="intro-detail">I write about AI and technology, law and society, politics and current affairs — and wherever those subjects lead me.</p>
+        <a class="scroll-link" href="#articles">Read my writing <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="intro-art" aria-hidden="true"><div class="sunburst">A</div><span class="orbit-tag tag-tech">TECH</span><span class="orbit-tag tag-law">LAW</span><span class="orbit-tag tag-world">THE WORLD</span><span class="art-note">notes from<br>the in-between</span><span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✳</span></div>
+      <div class="margin-note">VOL. 01 <span>—</span> IDEAS IN MOTION</div>
+    </section>
+    <section id="articles" class="articles-section" aria-labelledby="articles-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow">The heart of this portfolio</p><h2 id="articles-title">Things I've been <em>thinking about</em></h2><p class="section-intro">My writing, collected in one place. Start wherever your curiosity takes you.</p></div><span id="article-count" class="article-count">A READING LIST</span></div>
+        <div class="topic-bar"><span class="topic-label">BROWSE BY TOPIC</span><div id="topic-filters" class="topic-filters" role="group" aria-label="Filter articles by topic"></div></div>
+        <div id="article-grid" class="article-grid" aria-live="polite"><p class="loading-note">Gathering the ideas…</p></div>
+        <p id="empty-filter" class="empty-state" hidden>No pieces in this topic yet. Try another filter.</p>
+        <div class="articles-foot"><span>More ideas will find their way here.</span><span class="foot-doodle">✳</span></div>
+      </div>
+    </section>
+    <section id="about" class="about-section wrap" aria-labelledby="about-title">
+      <div class="about-label"><p class="eyebrow">A small introduction</p><span class="about-stamp" aria-hidden="true">AD<br>YAN</span></div>
+      <div class="about-copy"><h2 id="about-title">Learning out loud.<br><em>Writing along the way.</em></h2><p>I'm Adyan, a student interested in how ideas shape the world — especially where technology, law and politics meet. This portfolio is where I practise thinking carefully, make sense of what I'm learning and share my own perspective.</p><p>I'm still figuring things out. That's part of the point: a place to follow questions, improve as a writer and build a body of work over time.</p><p class="about-edit-hint">This is your introduction. Edit the text in <code>index.html</code> whenever you're ready.</p></div>
+    </section>
+    <section id="cv" class="cv-section"><div class="wrap cv-inner"><div><p class="eyebrow">A little more formal</p><h2>CV <span>— the short version, for now.</span></h2><p>Add your CV as <code>cv.pdf</code> in this folder when it's ready. The button will then open or download it.</p></div><a class="cv-button" href="cv.pdf" target="_blank" rel="noopener" download>View my CV <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap"><div class="footer-top"><a class="wordmark" href="index.html"><span class="wordmark-icon">A<span>✳</span></span><span>Adyan's <i>Portfolio</i></span></a><a class="back-top" href="#main">Back to the beginning ↑</a></div><p class="authorship-note">All articles published here are written by me and reflect my own ideas, thoughts and perspectives. The writing published on this portfolio is my own and is not AI-generated.</p><div class="footer-bottom"><span>© <span data-year></span> Adyan</span><a href="admin.html" class="admin-entry">Editor</a><span>Made of questions &amp; words.</span></div></div></footer>
+</body></html>
